@@ -1,0 +1,13 @@
+html, body {
+  min-height: 100%;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #FFFCF7, #FFEED2);
+  .index-div {
+    width: 100px;
+    height: 100px;
+    background: #e74c3c;
+    margin: 0 auto;
+  }
+}

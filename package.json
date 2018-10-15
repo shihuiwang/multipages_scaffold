@@ -1,0 +1,36 @@
+{
+  "name": "webpackTest-4.0",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.prod.js",
+    "pageOne": "webpack --env.project=pageOne --config build/webpack.prod.js",
+    "pageOnedev": "webpack-dev-server --env.project=pageOne --dev --open --progress --config build/webpack.dev.js",
+    "pageTwo": "webpack --env.project=pageTwo --config build/webpack.prod.js",
+    "pageTwodev": "webpack-dev-server --env.project=pageTwo --dev --open --progress --config build/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "echarts": "^4.2.0-rc.1"
+  }
+}
